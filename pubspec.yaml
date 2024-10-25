@@ -20,3 +20,48 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets\asthetic.jpg
+    - assets\bracelet.jpg
+    - assets\diamonds.jpg
+    - assets\girl shoes.jpg
+    - assets\gold.jpg
+    - assets\ladies chappals.jpg
+    - assets\ladies dress.jpg
+    - assets\lipstick.jpg
+    - assets\look.jpg
+    - assets\makeup set.jpg
+    - assets\makeup.jpg
+    - assets\mens watches.jpg
+    - assets\mens wear.jpg
+    - assets\nike.jpg
+    - assets\perfume.jpg
+    - assets\rich.jpg
+    - assets\rings.jpg
+    - assets\shirts.jpg
+    - assets\wedding.jpg
+    - assets\wired headphones.jpg
+    - assets\women dress.jpg
+    - assets\women shoes.jpg
+    - assets\crocs.jpg
+    - assets\nailpolish.jpg
+    - assets\banner_3.jpeg
+    - assets\banner_2.jpeg
+    - assets\banner_1.jpeg
+    - assets\outfits.jpg
+    - assets\necklace.jpg
+    - assets\wedding.jpg
+    - assets\girls dresses.jpg
+    - assets\stylish shoes.jpg
+    - assets\puma shoes.jpg
+    - assets\men shoes.jpg
+    - assets\women's.png
+    - assets\shoes.png
+    - assets\jewelry_earing.png
+    - assets\all.png
+    - assets\men's.png
+    - assets\beauty.png
+    - assets\offer_banner.jpg
+    - assets\diwali-festival-offers.jpg
+    - assets\images.png
+    - assets\current-month-offer.jpg
