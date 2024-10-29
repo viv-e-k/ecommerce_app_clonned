@@ -10,6 +10,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.2
   google_fonts: ^6.2.1
   provider: ^6.1.2
 
@@ -17,7 +18,9 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
-
+flutter_native_splash:
+  color:"#FFFFFF"
+  image:assets\app_logo.jpg
 flutter:
   uses-material-design: true
   assets:
@@ -65,3 +68,4 @@ flutter:
     - assets\diwali-festival-offers.jpg
     - assets\images.png
     - assets\current-month-offer.jpg
+    - assets\app_logo.jpg
