@@ -34,9 +34,8 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-             children: [//Text("Shopsy",
-            // style: TextStyle(
-              //  fontSize: 28, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 36, 86, 174)),),
+             children: [
+            
               const SizedBox(height: 35),
               const CustomAppBar(),
               const SizedBox(height: 20),

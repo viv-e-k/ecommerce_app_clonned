@@ -12,23 +12,12 @@ class CustomAppBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         const Text(
-          "Shoppy",
-            style: TextStyle(
-               fontSize: 28,
+          "M-Cart",
+          style: TextStyle(
+              fontSize: 28,
                fontWeight: FontWeight.bold, 
-               color: kprimaryColor),),
-        // IconButton(
-        //   style: IconButton.styleFrom(
-        //     backgroundColor: kcontentColor,
-        //     padding: const EdgeInsets.all(15),
-        //   ),
-        //   onPressed: () {},
-          
-        //   // icon: Image.asset(
-        //   //   "images/icon.png",
-        //   //   height: 20,
-        //   // ),
-        // ),
+               color: kprimaryColor),
+        ),
         IconButton(
           style: IconButton.styleFrom(
             backgroundColor: kcontentColor,

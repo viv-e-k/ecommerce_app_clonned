@@ -25,11 +25,11 @@ class Product {
       required this.quantity});
 }
 
-
-final List<Product> all =[
+final List<Product> all = [
   Product(
     title: "Headphones",
-    description: "These high-performance wireless over-ear headphones deliver exceptional sound quality and comfort for an immersive listening experience. Featuring advanced noise-canceling technology, they effectively block out ambient noise, allowing you to focus on your music, podcasts, or calls. The plush memory foam ear cushions provide a snug fit, ensuring comfort during extended wear. With a sleek and modern design, the headphones are available in a stylish matte finish and come with intuitive touch controls for easy operation. Boasting up to 30 hours of battery life on a single charge, these headphones are perfect for travel, workouts, or daily commutes, offering both style and functionality for the discerning listener.",
+    description:
+        "These high-performance wireless over-ear headphones deliver exceptional sound quality and comfort for an immersive listening experience. Featuring advanced noise-canceling technology, they effectively block out ambient noise, allowing you to focus on your music, podcasts, or calls. The plush memory foam ear cushions provide a snug fit, ensuring comfort during extended wear. With a sleek and modern design, the headphones are available in a stylish matte finish and come with intuitive touch controls for easy operation. Boasting up to 30 hours of battery life on a single charge, these headphones are perfect for travel, workouts, or daily commutes, offering both style and functionality for the discerning listener.",
     image: "assets/wired headphones.jpg",
     price: 120,
     seller: "Boat Headphones",
@@ -37,7 +37,6 @@ final List<Product> all =[
       Colors.black,
       Colors.blue,
       Colors.orange,
-
     ],
     category: "Electronics",
     review: "(320 Reviews)",
@@ -46,7 +45,8 @@ final List<Product> all =[
   ),
   Product(
     title: "Woman Sweter",
-    description:  "This elegant rose gold mesh bracelet watch combines timeless sophistication with modern design. Featuring a minimalist round dial, it is adorned with sparkling crystal hour markers that catch the light beautifully. The sleek, slim case is crafted from durable stainless steel with a polished rose gold finish, providing both durability and style. The adjustable mesh bracelet ensures a comfortable fit, making it suitable for any wrist size. ",
+    description:
+        "This elegant rose gold mesh bracelet watch combines timeless sophistication with modern design. Featuring a minimalist round dial, it is adorned with sparkling crystal hour markers that catch the light beautifully. The sleek, slim case is crafted from durable stainless steel with a polished rose gold finish, providing both durability and style. The adjustable mesh bracelet ensures a comfortable fit, making it suitable for any wrist size. ",
     image: "assets/women dress.jpg",
     price: 120,
     seller: "Yes Bharath",
@@ -54,13 +54,13 @@ final List<Product> all =[
       Colors.brown,
       Colors.deepPurple,
       Colors.pink,
-    ], 
-     category: "Woman Fashion",
+    ],
+    category: "Woman Fashion",
     review: "(32 Reviews)",
     rate: 4.5,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Watch",
     description:
         "Perfect for both everyday wear and special occasions, this watch is a versatile accessory that complements any outfit, adding a touch of refined elegance to your look.",
@@ -94,7 +94,7 @@ final List<Product> all =[
     rate: 5.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Perfume",
     description:
         "This enchanting floral eau de parfum captures the essence of a blooming garden in springtime. Top notes of fresh bergamot and sparkling pear open the fragrance, creating a bright and uplifting experience. The heart unfolds with delicate peony, jasmine, and lily of the valley, enveloping you in a bouquet of soft, romantic scents. A warm base of sandalwood, vanilla, and musk lingers on the skin, adding depth and sensuality",
@@ -111,7 +111,7 @@ final List<Product> all =[
     rate: 5.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Nike shoes",
     description:
         " Slip-on shoes without laces, loafers come in various styles, including penny loafers and tassel loafers, making them versatile for both formal and casual wear.",
@@ -267,9 +267,7 @@ final List<Product> shoes = [
     rate: 0.0,
     quantity: 1,
   ),
-  
 ];
-
 
 final List<Product> beauty = [
   Product(
@@ -306,7 +304,7 @@ final List<Product> beauty = [
     rate: 4.7,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Skin-Care Product",
     description:
         "Beauty products encompass a wide range of cosmetics and skincare items designed to enhance or maintain one’s appearance. These products can be used for various purposes, from makeup to skincare, hair care, and body care. ",
@@ -326,7 +324,6 @@ final List<Product> beauty = [
 ];
 
 final List<Product> womenFashion = [
-  
   Product(
     title: " Women Kurta",
     description:
@@ -397,8 +394,7 @@ final List<Product> womenFashion = [
   ),
 ];
 final List<Product> jewelry = [
-
-Product(
+  Product(
     title: "Diamonds",
     description:
         " Diamonds are most commonly used in engagement rings, wedding bands, and other fine jewelry due to their beauty and symbolism of love and commitment.",
@@ -432,7 +428,7 @@ Product(
     rate: 5.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Wedding Ring",
     description:
         "A simple yet meaningful ring, wedding bands are exchanged during marriage ceremonies, usually made of gold, silver, platinum, or other precious metals, sometimes set with diamonds or engravings.",
@@ -449,7 +445,7 @@ Product(
     rate: 4.5,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Necklace-Jewellery",
     description:
         "A women's necklace is a decorative accessory worn around the neck, available in an array of designs, lengths, and materials to suit various styles and occasions. Necklaces can be bold statement pieces or delicate and understated, often used to enhance an outfit or express personal style.",
@@ -468,7 +464,6 @@ Product(
   ),
 ];
 final List<Product> menFashion = [
-  
   Product(
     title: "Men Leather Jacket",
     description:
@@ -486,7 +481,7 @@ final List<Product> menFashion = [
     rate: 5.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Men Pants",
     description:
         "Men’s pants are a staple garment that covers the lower body, designed for a wide range of occasions, styles, and weather conditions. They vary in material, cut, and fit to suit different purposes, from formal to casual and everything in between.",
@@ -520,7 +515,7 @@ final List<Product> menFashion = [
     rate: 3.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "OverCoat",
     description:
         "A men’s coat is a long outer garment designed to provide warmth and style, typically extending below the waist or even to the knees. It’s tailored for various occasions, from formal events to casual outings, and crafted from heavier materials to shield the wearer from cold weather.",
@@ -537,7 +532,7 @@ final List<Product> menFashion = [
     rate: 5.0,
     quantity: 1,
   ),
-   Product(
+  Product(
     title: "Jacket",
     description:
         "A men's jacket is a versatile outer garment designed for style, comfort, and protection against weather elements. Typically cut at the waist or hip, jackets come in various styles, fabrics, and weights to suit different seasons and occasions.",
@@ -554,5 +549,4 @@ final List<Product> menFashion = [
     rate: 5.0,
     quantity: 1,
   ),
-
 ];

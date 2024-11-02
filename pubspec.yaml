@@ -1,7 +1,7 @@
 name: ecommerce_app
 description: "A new Flutter project."
 publish_to: "none"
-version: 0.1.0
+version: 0.1.1
 
 environment:
   sdk: ^3.5.1
@@ -19,8 +19,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 flutter_native_splash:
-  color:"#FFFFFF"
-  image:assets\app_logo.jpg
+  color: "#FFFFFF" 
+  image: assets\icon_splash.png
+  android: true
+  ios: false  
+  android_gravity: center
+  fullscreen: true
+
 flutter:
   uses-material-design: true
   assets:
@@ -68,4 +73,4 @@ flutter:
     - assets\diwali-festival-offers.jpg
     - assets\images.png
     - assets\current-month-offer.jpg
-    - assets\app_logo.jpg
+    - assets\icon_splash.png
